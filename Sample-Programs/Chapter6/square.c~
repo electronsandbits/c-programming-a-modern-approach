@@ -1,0 +1,26 @@
+/*
+ * File: square.c
+ * --------------
+ * This program prints a table of squares. The program will
+ * first prompt the user to enter a number n. It will then
+ * print n lines of output, with each line containing a number 
+ * between 1 and n together with its square.
+ */
+
+#include <stdio.h>
+
+int main(void) {
+   int i, n;
+
+   printf("This program prints a table of squares.\n");
+   printf("Enter number of entries in table: ");
+   scanf("%d", &n);
+
+   i = 1;
+   while (i <= n ) {
+      printf("%10d%10d\n", i , i * i );
+      i++;
+   }
+   return 0;
+}
+

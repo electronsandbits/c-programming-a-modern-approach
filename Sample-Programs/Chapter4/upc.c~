@@ -1,0 +1,26 @@
+/*
+ * File:upc.c
+ * ----------
+ * This program calculates the check digit for an arbitrary UPC.
+ * The program will ask the user to enter the first 11 digits of the UPC,
+ * then will display the corresponding check digit.
+ * To avoid confusion, we'll ask the ussr to enter the number in
+ * three parts: The single digit at the left, the first group of five
+ * digits, and the second group of five digits. 
+ */
+
+#include <stdio.h>
+
+
+int main (void) {
+   int d, i1, i2, i3, i4, i5, j1, j2, j3, j4, j5;
+   int firstsum, secondsum, total;
+
+   pritnf("Enter the first (single) digit:  ");
+   scanf("%1d", &d);
+
+
+
+}
+
+ 

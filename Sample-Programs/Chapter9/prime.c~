@@ -1,0 +1,40 @@
+/* 
+ * File: prime2.c 
+ * --------------
+ * This program tests whether a number is prime.
+ * the program will prompt the user to enter a number,
+ * then respond with a message indicating whether
+ * or not the number is prime.
+ */
+
+#include <stdio.h>
+#include <stdbool.h>
+
+/* Function prototypes */
+
+bool isPrime (int n);
+
+/* Main program */
+
+int main ()  {
+   int n; 
+
+   printf("Enter a number: ");
+   scanf("%d", &n);
+   if  (isPrime(n)) {
+      printf("Prime number\n"); 
+   } else {
+      printf("Not a prime number\n");
+   }
+   return 0;
+}
+
+/*
+ * Function: isPrime 
+ * Usage:isPrime (int n)
+ * ---------------------
+ * This function  returns True if is parameter 
+ * is a prime number and false if it isn't.
+ * When given a number n, the isPrime function will divide 
+ * n by each of the numbers between 2 and the square root of n;
+ * If the remainder is ever 0,

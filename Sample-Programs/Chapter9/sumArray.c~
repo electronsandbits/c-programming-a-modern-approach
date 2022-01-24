@@ -1,0 +1,10 @@
+/*
+ * File: sumArray.c 
+ * ----------------
+ * This program illustrates the use of one-dimensional array 
+ * arguments.
+ */
+
+
+#include <stdio.h>
+

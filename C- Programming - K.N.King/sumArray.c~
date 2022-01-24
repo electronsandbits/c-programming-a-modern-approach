@@ -1,0 +1,19 @@
+/*
+ * File: sumArray.c 
+ * ----------------
+ * This program when given an array a 
+ * of int values, sumArray returns the sum 
+ * of the elements in a.
+ */
+
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+int sumArray (int a[], int n);
+
+
+/* Constants */ 
+#define LEN 100

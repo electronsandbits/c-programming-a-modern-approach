@@ -1,0 +1,6 @@
+/*
+ * File: date.c 
+ * ------------
+ * This program dislays date in legal form. 
+ * The user is prompted to enter date in month/day/year form, then
+ * the program should display the date in "legal".

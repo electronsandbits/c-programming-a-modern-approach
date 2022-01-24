@@ -1,0 +1,52 @@
+/*
+ * File: check.c
+ * -------------
+ * This program returns 1 if both x and y fall between 0 and n-1, inclusive.
+ * The function should return 0 otherwise. Assume that x, y, n are all of 
+ * type int.
+ */
+
+
+#include <stdio.h>
+
+/* Function prototypes */
+
+int check(int x, int y, int n);
+
+
+/* Main program */
+
+int main() {
+   int x, y, n;
+  
+   printf("\nEnter x, y, and n: ");
+   scanf("%d%d%d", &x, &y, &n);
+
+   // if  (check(x, y, n)) {
+   //     printf("%d and %d are between 0 and %d\n\n", x, y, n);
+   //  } else {
+   //    printf("%d and %d are not between 0 and %d\n\n", x, y, n);
+   //  }
+   check(x, y, n); /* Function's call */
+
+   return 0;
+}
+
+/*
+ * Function: check
+ * Usage: int c = check(x, y, n);
+ * ------------------------------
+ * Returns 1 if both x and y fall between 0 and n - 1.
+ * Otherwise returns 0.
+ */
+
+int check(int x, int y, int n) {
+   
+  if (( x >= 0 && x < n) && (y >= 0 && y < n)) {
+    return 1;
+  } else {
+     return 0;
+  }
+}
+
+ 

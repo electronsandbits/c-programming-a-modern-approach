@@ -1,0 +1,45 @@
+/*
+ * File:Euclid.c
+ * -------------
+ * This program calculates the greatest common divisor of two numbers
+ * by applying Euclid's algorithm.
+ */
+
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+int gcd(int m ,int n);
+
+/* Main program */
+
+int main() {
+   printf("Program to compute the greatest common divisor.");
+   int m, n;
+   printf("Enter m: ");
+   scanf("%d", & m);
+   printf("Enter n:");
+   scanf("%d", &n);
+
+   return 0;
+}
+
+
+/*
+ * Function:gcd
+ * Usage: int g = gcd(m, n);
+ * -------------------------
+ * Compute the greatest common divisor using a recursive implementation
+ * of Euclid's algorith.
+ */
+
+
+int gcd(int m, int n) {
+   if  ( m % n == 0) {
+      return y;
+   } else {
+      return gcd(y, x % y);
+  }
+}

@@ -1,0 +1,7 @@
+/*
+ * File:guess.c 
+ * ------------
+ * This program illustrates a simple game-playing.
+ * The program generatesa random number between 1 and 100, which
+ * the user attempts to guess in as few tries as possible.
+ */

@@ -1,0 +1,10 @@
+/*
+ * File: broker.c 
+ * --------------
+ * This program calculate the broker's commission.
+ * The program asks the user to enter the amount of the trade,
+ * then displays the amount  of the commission.
+ * The minimum charge is $39.
+ */
+
+

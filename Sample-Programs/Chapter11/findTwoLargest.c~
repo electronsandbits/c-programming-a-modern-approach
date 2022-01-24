@@ -1,0 +1,18 @@
+/*
+ * FindTwoLargest.c 
+ * ----------------
+ * When passed an array a[] of length n, the function findTwoLargest(),
+ * will search a[] for its largest and second largest elements, 
+ * storing them in the variables pointed to by largest and 
+ * secondLargest, respectively.
+ */
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+void findTwoLargest(int a[], int n, int *largest, int *secondLargest);
+
+
+/* Constants */
